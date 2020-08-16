@@ -2,4 +2,7 @@
 <img src="imagens/via-rapida.png" align="right">
 
 <br><br><br>
-<img src="cronograma.png">
+<img src="imagens/intro.png">
+
+<br><br><br>
+<img src="imagens/cronograma.png">
