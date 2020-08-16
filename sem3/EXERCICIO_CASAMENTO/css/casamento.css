@@ -1,0 +1,58 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Tangerine:wght@700&display=swap');
+@font-face {
+    font-family: 'Monsieur La Doulaise', cursive;
+    font-family: 'Tangerine', cursive;
+}
+
+body {
+    background-image: url("../imagens/igreja.png");
+    background-size: cover;
+    background-attachment: inherit;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+.w3-rouge {
+    font-family: 'Monsieur La Doulaise', cursive;
+    font-weight: bold;
+    font-size: 70pt;
+    text-shadow: 1px 1px 2px #808080, -1px -1px #808080;
+}
+h2 {
+    font-family: 'Tangerine', cursive;
+    font-weight: bold;
+    font-size: 50pt;
+    text-shadow: 1px 1px 1px #808080, -1px -1px #808080;
+}
+header {
+    margin-top: 50px;
+    background-image: url("../imagens/rosa.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+section {
+    margin: 150px;
+}
+img {
+    margin-left: 100px;
+    margin-right: 100px;
+    filter: grayscale(70%);
+    height: 250px;
+    transition: 1.2s;
+    opacity: 0.3;
+    border-radius: 20px;
+}
+img:hover {
+    border-radius: 0px;
+    opacity: 1.0;
+    filter: none;
+    transform: scale(2.0);
+}
+div#album {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+footer {
+    color: white;
+    text-shadow: 1px 1px #0f0f0f, -1px -1px #0f0f0f;
+}
