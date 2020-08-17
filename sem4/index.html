@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Técnico de Desenvolvimento de Sistemas - NovoTec</title>
+    <style>
+        a#ms {text-decoration: none;}
+        a#ms:hover{text-decoration: underline;}
+    </style>
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+        } else {
+            document.getElementById("navbar").style.top = "-60px";
+        }
+        prevScrollpos = currentScrollPos;
+        } 
+    </script>
+</head>
+<body style="background-image: url('https://i.imgur.com/siYNnSP.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;" >
+    <!-- Navbar do topo do site -->
+    <div id="navbar" class="w3-top w3-opacity-min" style="position:fixed; top: 0; transition: top 0.5s">
+        <div class="w3-white w3-padding w3-card">
+            <a href="#home" class="w3-bar-item w3-button">Desenvolvimento de Sistemas</a>
+            <!-- Deixando itens de navegação do lado direito e escondendo em telas pequenas them on small screen-->
+            <div class="w3-right w3-hide-small">
+                <a href="#sobre" class="w3-bar-item w3-button">Sobre</a>
+                <a href="#disciplinas" class="w3-bar-item w3-button">Disciplinas</a>
+                <a href="#contato" class="w3-bar-item w3-button">Contato</a>
+            </div>
+        </div>
+    </div>
+    <!-- Cabeçalho -->
+    <header class="w3-display-container w3-content w3-wide" id="home" style="">
+        <br><br>
+        <img class="w3-image" src="https://i.ibb.co/ZdtLMQX/Screenshot-20200317-192436-Word.jpg" alt="LogoTipo do Curso" border="0">
+        <br><br><br><br><br>
+        <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+            <h1 class="w3-xxlarge">Técnico de Desenvolvimento de Sistemas</h1>
+        </div>
+    </header>
+    <div class="w3-content">
+        <div id="sobre" class="w3-row w3-padding-64">
+            <div class="w3-col m6 w3-padding-large w3-hide-small">
+                <a href="https://imgbb.com/"><img src="https://i.ibb.co/BVdYtWG/Screenshot-2020317-202348-Word.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" border="0"></a>
+            </div>
+            <div class="w3-col m6 w3-padding-large">
+                <h1 class="w3-center">O Curso</h1><br>
+                <h5 class="w3-center">Duração: 3 semestres</h5>
+                <p class="w3-large">
+                    A habilitação profissional técnica de nível médio em TÉCNICO EM DESENVOLVIMENTO DE SISTEMAS tem por objetivo proporcionar aos estudantes conhecimentos e práticas que os levem a apropriarem-se de tecnologias numa condição de excelência, articulando conceitos e metodologias, estratégias e avanços técnico-mercadológicos adicionados a novos recursos humanos, a fim de corresponder, de maneira eficiente, a critérios, normas e sistemas específicos presentes nos segmentos desse setor.
+                </p>
+            </div>
+        </div>
+        <br>
+        <!-- Disciplinas -->
+        <div class="w3-row w3-padding-64" id="disciplinas">
+            <h1 class="w3-center">Disciplinas</h1>
+            <br>
+            <div class="w3-col 16 w3-padding-large" style="position:absolute; left: initial;">
+                <h4>Primeiro Módulo</h4>
+                <p class="w3-text-grey">
+                    Linguagem, Trabalho e Tecnologia
+                    <br> Programação e Algoritmos
+                    <br> Banco de Dados I
+                    <br> Análise e Projeto de Sistemas
+                    <br> Design Digital
+                    <br> Programação Web I
+                    <br> Fundamentos da Informática
+                    <br> Técnicas de Programação
+                    <br>
+                </p>
+                <br>
+                <h4>Segundo Módulo</h4>
+                <p class="w3-text-grey">
+                    Inglês Instrumental
+                    <br> Desenvolvimento de Sistemas
+                    <br> Banco de Dados II
+                    <br> Internet e Protocolos
+                    <br> Programação de Aplicativos Mobile I
+                    <br> Programação Web II
+                    <br> Planejamento do Trabalho de Conclusão de Curso (TCC)
+                    <br>em Desenvolvimento de Sistemas
+                    <br>
+                </p>
+                <br>
+                <h4>Terceiro Módulo</h4>
+                <p class="w3-text-grey">
+                    Segurança de Sistemas de Informação
+                    <br> Banco de Dados III
+                    <br> Sistemas Embarcados
+                    <br> Programação de Aplicativos Mobile II
+                    <br> Programação Web III
+                    <br> Qualidade e Teste de Software
+                    <br> Ética e Cidadania Organizacional
+                    <br> Desenvolvimento do Trabalho de Conclusão de Curso (TCC)
+                    <br>
+                </p>
+                <br>
+            </div>
+            <div class="w3-col 16 w3-padding w3-hide-small" style="position:absolute; right: -50%;">
+                <img src="https://assets.univesp.br/novotec/codepen/unidade4/css3.png" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width: 25%;"><br><br>
+
+                <img src="https://assets.univesp.br/novotec/codepen/unidade4/html5.png" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width: 25%;">
+            </div>
+        </div>
+        <br>
+        <div id="contato" class="w3-row w3-padding-64" style="position: absolute; bottom: -320%;">
+            <h1>Contato</h1><br>
+            <p>Para maiores informações sobre o curso:</p>
+            <p class="w3-text-blue-grey w3-large"><b>São Paulo</b></p>
+            <p>Telefone: 11 3333-3333 ou Email: ds@cps.sp.gov.br</p>
+            <form>
+                <p><input class="w3-input w3-padding-16" type="text" placeholder="Nome"></p>
+                <p><input class="w3-input w3-padding-16" type="text" placeholder="Assunto"></p>
+                <p><input class="w3-input w3-padding-16" type="text" placeholder="Mensagem"></p>
+                <p><button class="w3-button w3-light-grey w3-section" type="submit">Enviar</button></p>
+            </form>
+        </div>
+    </div>
+    <footer class="w3-display-bottomleft w3-padding" style="position: absolute; bottom: -370%;">
+        
+        <img src="https://i.imgur.com/AWtFe1D.png" class="w3-grayscale-max">&nbsp;<a href="https://www.facebook.com/novotecsp/" target="_blank" id="ms">Facebook</a><br><br>
+        <img src="https://i.imgur.com/hFhGgIf.png" class="w3-grayscale-max">&nbsp;<a href="https://www.instagram.com/novotecsp/" target="_blank" id="ms">Instagram</a><br><br>
+        <img src="https://i.imgur.com/OMNL501.png" class="w3-grayscale-max">&nbsp;<a href="https://twitter.com/paulasouzasp" target="_blank" id="ms">Twitter</a><br><br>
+        <img src="https://i.imgur.com/iBeZM9P.png" class="w3-grayscale-max">&nbsp;<a href="https://www.linkedin.com/company/centro-estadual-de-educa-o-tecnol-gia-paula-souza-" target="_blank" id="ms">Linkedin</a><br><br>
+
+        <h5 class="w3-center">&reg; Powered by <a href="http://www.novotec.sp.gov.br/" target="_blank">Novotec</a></h5>
+    </footer>
+</body>
+</html>
